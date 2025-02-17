@@ -1,15 +1,86 @@
-Job Board - SwiftUI Task Management App 🚀
+# SwiftUI Task Board App
 
-A modern SwiftUI-based job board app that allows users to easily manage tasks by dragging and dropping them between stages like To Do, In Progress, and Done.
+A modern, intuitive task management application built with SwiftUI that enables users to organize and track tasks through different stages using a sleek drag-and-drop interface.
 
-✅ Features
+## Features
 
-Drag & Drop Support: Seamlessly move tasks between different job statuses (To Do, In Progress, Done).
-Beautiful UI: A clean, modern design powered by SwiftUI, ensuring a smooth and responsive user experience.
-Popup Modal: Quickly add new tasks with an elegant, smooth pop-up form.
-Persistence: Tasks are saved and managed easily, ensuring that no task is lost.
-🛠️ Tech Stack
+### Core Functionality
+- **Kanban-Style Board**: Organize tasks across three columns:
+  - To Do
+  - In Progress
+  - Done
+- **Drag & Drop**: Seamlessly move tasks between columns
+- **Task Creation**: Add new tasks via an elegant modal interface
+- **Persistence**: All tasks are automatically saved locally
 
-SwiftUI: The modern declarative UI framework by Apple for building responsive user interfaces.
-Swift: The powerful and efficient programming language used to implement the core logic and features of the app.
-Drag and Drop API: Used to allow users to interact with tasks intuitively.
+### User Interface
+- **Modern Design**: Clean, intuitive interface built with SwiftUI
+- **Responsive Layout**: Adapts to different screen sizes
+- **Smooth Animations**: Fluid transitions and interactions
+- **Visual Feedback**: Clear visual cues for drag and drop operations
+
+### Task Management
+- **Task Details**: Each task includes:
+  - Title
+  - Description
+  - Creation Date
+  - Current Status
+- **Status Tracking**: Easily monitor task progress
+- **Visual Organization**: Clear separation between different task stages
+
+## Technical Stack
+
+- **Framework**: SwiftUI
+- **Language**: Swift
+- **Persistence**: Core Data
+- **Minimum iOS Version**: iOS 15.0+
+- **Device Support**: iPhone and iPad
+
+
+
+3. Build and run the project (⌘+R)
+
+## Usage
+
+### Adding a Task
+1. Tap the '+' button in the navigation bar
+2. Enter the task title and description
+3. Tap 'Add' to create the task
+
+### Moving Tasks
+1. Press and hold on any task card
+2. Drag the card to the desired column
+3. Release to drop the task in its new status
+
+### Viewing Tasks
+- Scroll horizontally to see all columns
+- Scroll vertically within columns to see all tasks
+- Tap on a task to view its full details
+
+
+
+## Requirements
+
+- iOS 15.0 or later
+- Xcode 13.0 or later
+- Swift 5.5 or later
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+ MIT License - see the LICENSE.md file for details
+
+## Acknowledgments
+
+- Apple SwiftUI Documentation
+- Swift Package Manager
+- The SwiftUI Community
+
+## Support
+
+For support, please open an issue in the GitHub repository or contact the maintainers directly.
