@@ -65,15 +65,7 @@ A modern, intuitive task management application built with SwiftUI that enables 
 - Xcode 13.0 or later
 - Swift 5.5 or later
 
-## Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
- MIT License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
